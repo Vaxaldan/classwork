@@ -1,0 +1,7 @@
+C:\Users\Evan\Desktop\classwork\Day One Excercise\obj\Debug\Day One Excercise.csproj.AssemblyReference.cache
+C:\Users\Evan\Desktop\classwork\Day One Excercise\obj\Debug\Day One Excercise.csproj.CoreCompileInputs.cache
+C:\Users\Evan\Desktop\classwork\Day One Excercise\bin\Debug\Day One Excercise.exe.config
+C:\Users\Evan\Desktop\classwork\Day One Excercise\bin\Debug\Day One Excercise.exe
+C:\Users\Evan\Desktop\classwork\Day One Excercise\bin\Debug\Day One Excercise.pdb
+C:\Users\Evan\Desktop\classwork\Day One Excercise\obj\Debug\Day One Excercise.exe
+C:\Users\Evan\Desktop\classwork\Day One Excercise\obj\Debug\Day One Excercise.pdb
