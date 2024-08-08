@@ -1,0 +1,7 @@
+C:\Users\frank\workspace\classwork\Unit-2-Fundamental-C#\Day-2-Sample-Conditional-Project\bin\Debug\Day-2-Sample-Conditional-Project.exe.config
+C:\Users\frank\workspace\classwork\Unit-2-Fundamental-C#\Day-2-Sample-Conditional-Project\bin\Debug\Day-2-Sample-Conditional-Project.exe
+C:\Users\frank\workspace\classwork\Unit-2-Fundamental-C#\Day-2-Sample-Conditional-Project\bin\Debug\Day-2-Sample-Conditional-Project.pdb
+C:\Users\frank\workspace\classwork\Unit-2-Fundamental-C#\Day-2-Sample-Conditional-Project\obj\Debug\Day-2-Sample-Conditional-Project.csproj.AssemblyReference.cache
+C:\Users\frank\workspace\classwork\Unit-2-Fundamental-C#\Day-2-Sample-Conditional-Project\obj\Debug\Day-2-Sample-Conditional-Project.csproj.CoreCompileInputs.cache
+C:\Users\frank\workspace\classwork\Unit-2-Fundamental-C#\Day-2-Sample-Conditional-Project\obj\Debug\Day-2-Sample-Conditional-Project.exe
+C:\Users\frank\workspace\classwork\Unit-2-Fundamental-C#\Day-2-Sample-Conditional-Project\obj\Debug\Day-2-Sample-Conditional-Project.pdb
