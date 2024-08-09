@@ -1,0 +1,7 @@
+C:\Users\Evan\Desktop\classwork\Unit-2-Fundamental-C#\Day 3 loop practice\bin\Debug\Day 3 loop practice.exe.config
+C:\Users\Evan\Desktop\classwork\Unit-2-Fundamental-C#\Day 3 loop practice\bin\Debug\Day 3 loop practice.exe
+C:\Users\Evan\Desktop\classwork\Unit-2-Fundamental-C#\Day 3 loop practice\bin\Debug\Day 3 loop practice.pdb
+C:\Users\Evan\Desktop\classwork\Unit-2-Fundamental-C#\Day 3 loop practice\obj\Debug\Day 3 loop practice.csproj.AssemblyReference.cache
+C:\Users\Evan\Desktop\classwork\Unit-2-Fundamental-C#\Day 3 loop practice\obj\Debug\Day 3 loop practice.csproj.CoreCompileInputs.cache
+C:\Users\Evan\Desktop\classwork\Unit-2-Fundamental-C#\Day 3 loop practice\obj\Debug\Day 3 loop practice.exe
+C:\Users\Evan\Desktop\classwork\Unit-2-Fundamental-C#\Day 3 loop practice\obj\Debug\Day 3 loop practice.pdb
