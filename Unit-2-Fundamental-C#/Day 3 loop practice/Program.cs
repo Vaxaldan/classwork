@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO; // gives access to the basic C# system code
+﻿using System; // gives access to the basic C# system code
 
 namespace Day_3_loop_practice
 {
