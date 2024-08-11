@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Evan\\Desktop\\classwork\\Unit-2-Fundamental-C#\\Number-Analyzer-Lab\\",
+  "WorkspaceRootPath": "C:\\Users\\Evan\\Desktop\\classwork\\Labs\\Number-Analyzer-Lab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FDF4285-DAC3-4EA5-8C69-71F5D62AF2D1}|Number-Analyzer-Lab.csproj|c:\\users\\evan\\desktop\\classwork\\unit-2-fundamental-c#\\number-analyzer-lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FDF4285-DAC3-4EA5-8C69-71F5D62AF2D1}|Number-Analyzer-Lab.csproj|c:\\users\\evan\\desktop\\classwork\\labs\\number-analyzer-lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FDF4285-DAC3-4EA5-8C69-71F5D62AF2D1}|Number-Analyzer-Lab.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Evan\\Desktop\\classwork\\Unit-2-Fundamental-C#\\Number-Analyzer-Lab\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Evan\\Desktop\\classwork\\Labs\\Number-Analyzer-Lab\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Evan\\Desktop\\classwork\\Unit-2-Fundamental-C#\\Number-Analyzer-Lab\\Program.cs",
+              "ToolTip": "C:\\Users\\Evan\\Desktop\\classwork\\Labs\\Number-Analyzer-Lab\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwBQAAAANAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwBQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T01:32:22.766Z",
               "EditorCaption": ""

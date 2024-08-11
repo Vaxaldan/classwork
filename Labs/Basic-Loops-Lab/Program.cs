@@ -27,26 +27,33 @@ namespace Basic_Loops_Lab
             // Prompt the user for a number. Use a for loop to output all the numbers from that number to 0. After that loop finishes, use another loop to output all the numbers from 0 to that number.
 
 
+            Console.WriteLine("Please enter a number");
+            int userNum = int.Parse(Console.ReadLine());
+            int loopNum = userNum;
 
-            /*
-
-            for (int i = 0; i < int.Parse(Console.ReadLine()); i++)
+            for (int i = 0; i < userNum+1; i++)
             {
+                Console.Write(loopNum-- + ", ");
                 
-                Console.WriteLine("Please enter a number");
-                int userNum = int.Parse(Console.ReadLine());
                 
             }
-             
-            */
+
+            Console.WriteLine();
+            
+            for (int i = 0; i < userNum + 1; i++)
+            {
+                Console.Write(i + ", ");
 
 
+            }
             // Keypad entry 13579
+
+            Console.WriteLine();
 
             bool doorLock = true;
             int userAttempt = 0;
 
-            while (doorLock == true)
+            while (doorLock == true) 
             {
                 
                 
@@ -64,13 +71,16 @@ namespace Basic_Loops_Lab
                 {
                     userAttempt++;
                     Console.WriteLine("Incorrect key code " + userAttempt);
-                    
+                   
+                    if (userAttempt == 5)
+                    {
+                        Console.WriteLine("WARNING, to many incorrect attempts. ");
+                        doorLock = false;
+                    }
+
                 }
                 
-                else if(userAttempt == 5)
-                {
-                    Console.WriteLine("WARNING, to many incorrect attempts. ");
-                }
+               
             }
         }
     }
