@@ -1,0 +1,14 @@
+C:\Users\frank\workspace\wip\Unit-2-Day-4-Siwtch-Example\bin\Debug\Unit-2-Day-4-Siwtch-Example.exe.config
+C:\Users\frank\workspace\wip\Unit-2-Day-4-Siwtch-Example\bin\Debug\Unit-2-Day-4-Siwtch-Example.exe
+C:\Users\frank\workspace\wip\Unit-2-Day-4-Siwtch-Example\bin\Debug\Unit-2-Day-4-Siwtch-Example.pdb
+C:\Users\frank\workspace\wip\Unit-2-Day-4-Siwtch-Example\obj\Debug\Unit-2-Day-4-String-Switch-Method-Examples.csproj.AssemblyReference.cache
+C:\Users\frank\workspace\wip\Unit-2-Day-4-Siwtch-Example\obj\Debug\Unit-2-Day-4-String-Switch-Method-Examples.csproj.CoreCompileInputs.cache
+C:\Users\frank\workspace\wip\Unit-2-Day-4-Siwtch-Example\obj\Debug\Unit-2-Day-4-Siwtch-Example.exe
+C:\Users\frank\workspace\wip\Unit-2-Day-4-Siwtch-Example\obj\Debug\Unit-2-Day-4-Siwtch-Example.pdb
+C:\Users\frank\workspace\classwork\Unit-2-Fundamental-C#\Unit-2-Day-4-Switch-Example\bin\Debug\Unit-2-Day-4-Siwtch-Example.exe.config
+C:\Users\frank\workspace\classwork\Unit-2-Fundamental-C#\Unit-2-Day-4-Switch-Example\bin\Debug\Unit-2-Day-4-Siwtch-Example.exe
+C:\Users\frank\workspace\classwork\Unit-2-Fundamental-C#\Unit-2-Day-4-Switch-Example\bin\Debug\Unit-2-Day-4-Siwtch-Example.pdb
+C:\Users\frank\workspace\classwork\Unit-2-Fundamental-C#\Unit-2-Day-4-Switch-Example\obj\Debug\Unit-2-Day-4-String-Switch-Method-Examples.csproj.AssemblyReference.cache
+C:\Users\frank\workspace\classwork\Unit-2-Fundamental-C#\Unit-2-Day-4-Switch-Example\obj\Debug\Unit-2-Day-4-String-Switch-Method-Examples.csproj.CoreCompileInputs.cache
+C:\Users\frank\workspace\classwork\Unit-2-Fundamental-C#\Unit-2-Day-4-Switch-Example\obj\Debug\Unit-2-Day-4-Siwtch-Example.exe
+C:\Users\frank\workspace\classwork\Unit-2-Fundamental-C#\Unit-2-Day-4-Switch-Example\obj\Debug\Unit-2-Day-4-Siwtch-Example.pdb
