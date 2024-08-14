@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FF75E571-7CBD-496B-85D2-2B99FD73A8E8}</ProjectGuid>
+    <ProjectGuid>{92DCB232-7D9C-4C63-9284-5786765B0AF7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Dice_Lab</RootNamespace>
     <AssemblyName>Dice-Lab</AssemblyName>
