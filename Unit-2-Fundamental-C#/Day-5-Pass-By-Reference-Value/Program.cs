@@ -11,14 +11,16 @@ namespace Day_5_Pass_By_Reference_Value
 
             Console.WriteLine("\n------ Calling method by value and by reference ------");
             Console.WriteLine("Values before call to method: myNum=" + myNum + "  yourNum=" + yourNum);
-            method1(myNum, ref yourNum);
+
+            method1(myNum, ref yourNum); //myNum is passed by value, yourNum is passed by refernce
+
             Console.WriteLine("Values after call to method: myNum=" + myNum + "  yourNum=" + yourNum);
 
             Console.WriteLine("\nPlease press enter to end program");
             Console.Read();
 
         } // End of Main()
-
+        // num1 is recived by value, num2 is recived by refernce (has access to original data)
         static void method1(int num1, ref int num2)
         {
             Console.WriteLine("At start of method, num1=" + num1 + "   num2=" + num2);
