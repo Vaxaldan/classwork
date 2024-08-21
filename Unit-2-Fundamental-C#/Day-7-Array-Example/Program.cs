@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Day_5_Array_Example
+namespace Day_7_Array_Example
 {
     internal class Program
     {
