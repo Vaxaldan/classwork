@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Day_2_ArrayList_Example
 {
@@ -6,7 +8,60 @@ namespace Day_2_ArrayList_Example
     {
         static void Main(string[] args)
         {
+            /*******************************************
+           *  Generic Collection Object - ArrayList
+           *  (any data type can be stored)
+           *  ***************************************/
+            // Define an ArrayList to hold some numbers
+            ArrayList someNumbers = new ArrayList(); // Note: () after ArrayList - they are required
 
+            do
+            {
+                // Get a number from the user and store it in the ArrayList
+
+                someNumbers.Add(GetANumber()); // Add the number entered by the user to the ArrayList
+
+            } while (moreInput()); // Loop while the users says they have more input
+
+            // Display how many numbers they eneterd and what they were
+            Console.WriteLine("You eneterd " + someNumbers.Count + " numbers");
+
+            Console.Write("The numbers you enterd were: ");
+            foreach (double aNumber in someNumbers)
+            {
+                Console.Write(aNumber + " ");
+            }
+            Console.WriteLine("\n************************************************************************\n");
+            /*******************************************
+             *  Non-generic Collection Object - List
+             *  (Specific datatype must be stored)
+             *  ***************************************/
+            
+            
+            // Define an ArrayList to hold some numbers
+            // You specify the type of data to be stored inside the diamond brackets <>
+            List<double> someNumbersList = new List<double>(); // Note: () after ArrayList - they are required
+
+            do
+            {
+                // Get a number from the user and store it in the ArrayList
+
+                someNumbersList.Add(GetANumber()); // Add the number entered by the user to the ArrayList
+
+            } while (moreInput()); // Loop while the users says they have more input
+
+            // Display how many numbers they eneterd and what they were
+            Console.WriteLine("You eneterd " + someNumbersList.Count + " numbers");
+
+            Console.Write("The numbers you enterd were: ");
+            foreach (double aNumber in someNumbersList)
+            {
+                Console.Write(aNumber + " ");
+            }
+
+            
+            Console.WriteLine("\nPress enter to end.");
+            Console.Read();
 
         }  // End of Main()
 
