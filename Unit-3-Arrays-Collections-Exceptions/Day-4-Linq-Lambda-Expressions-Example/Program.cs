@@ -5,7 +5,7 @@ namespace Day_4_Linq_Lambda_Expressions_Example
 {
     internal class Program
     {
-        static List<string> StarFleetPersonnel = new List<string>();
+        static List<string> starFleetPersonnel = new List<string>();
 
         static void Main(string[] args)
         {
@@ -15,7 +15,7 @@ namespace Day_4_Linq_Lambda_Expressions_Example
 
             WriteSeparatorLine("List of People in our List");
 
-            foreach (string anElement in StarFleetPersonnel)
+            foreach (string anElement in starFleetPersonnel)
             {
                 DisplayLine(anElement);
             }
@@ -33,7 +33,7 @@ namespace Day_4_Linq_Lambda_Expressions_Example
                 string searchString = Console.ReadLine();
 
                 int matchCount = 0;
-                foreach (string anEntry in StarFleetPersonnel)
+                foreach (string anEntry in starFleetPersonnel)
                 {
                     if (anEntry.ToLower().Contains(searchString.ToLower()))
                     {
@@ -55,25 +55,25 @@ namespace Day_4_Linq_Lambda_Expressions_Example
          ************************************************************************************/
         static public void LoadData()
         {
-            StarFleetPersonnel.Add("James T Kirk, Captain, NCC-1701");
-            StarFleetPersonnel.Add("Jean Luc Picard, Captain, NCC-1701-D");
-            StarFleetPersonnel.Add("Jonathan Archer, Captain, NX-1");
-            StarFleetPersonnel.Add("Catherine Janeway, Captain, NCC-74656");
-            StarFleetPersonnel.Add("Benjamin Sisco, Captain, DS9");
-            StarFleetPersonnel.Add("Worf Son of Mogh, Lieutenant, NCC-1701-D");
-            StarFleetPersonnel.Add("Miles O'Brian, Senior Chief, Deep Space 9");
-            StarFleetPersonnel.Add("Kira Nerys, Colonel, Deep Space 9");
-            StarFleetPersonnel.Add("Jadzi Dax, Lt. Commander, Deep Space 9");
-            StarFleetPersonnel.Add("Odo, Constable, Deep Space 9");
-            StarFleetPersonnel.Add("Montgomery Scott, Commander, NCC-1701");
-            StarFleetPersonnel.Add("S'chn T'gai Spock, Commander, NCC-1701");
-            StarFleetPersonnel.Add("Leonard McCoy,Lt Commander, NCC-1701");
-            StarFleetPersonnel.Add("Nyota Uhura, Lt Commander, NCC-1701");
-            StarFleetPersonnel.Add("Deanna Troi, Lt Commander, NCC-1701-D");
-            StarFleetPersonnel.Add("B'lanna Torres, Lt Commander, NCC-74656");
-            StarFleetPersonnel.Add("Chakotay, Lt Commander, NCC-74656");
-            StarFleetPersonnel.Add("Seven of Nine,None, NCC-74656");
-            StarFleetPersonnel.Add("Tuvok, Lieutenant, NCC-74656");
+            starFleetPersonnel.Add("James T Kirk, Captain, NCC-1701");
+            starFleetPersonnel.Add("Jean Luc Picard, Captain, NCC-1701-D");
+            starFleetPersonnel.Add("Jonathan Archer, Captain, NX-1");
+            starFleetPersonnel.Add("Catherine Janeway, Captain, NCC-74656");
+            starFleetPersonnel.Add("Benjamin Sisco, Captain, DS9");
+            starFleetPersonnel.Add("Worf Son of Mogh, Lieutenant, NCC-1701-D");
+            starFleetPersonnel.Add("Miles O'Brian, Senior Chief, Deep Space 9");
+            starFleetPersonnel.Add("Kira Nerys, Colonel, Deep Space 9");
+            starFleetPersonnel.Add("Jadzi Dax, Lt. Commander, Deep Space 9");
+            starFleetPersonnel.Add("Odo, Constable, Deep Space 9");
+            starFleetPersonnel.Add("Montgomery Scott, Commander, NCC-1701");
+            starFleetPersonnel.Add("S'chn T'gai Spock, Commander, NCC-1701");
+            starFleetPersonnel.Add("Leonard McCoy,Lt Commander, NCC-1701");
+            starFleetPersonnel.Add("Nyota Uhura, Lt Commander, NCC-1701");
+            starFleetPersonnel.Add("Deanna Troi, Lt Commander, NCC-1701-D");
+            starFleetPersonnel.Add("B'lanna Torres, Lt Commander, NCC-74656");
+            starFleetPersonnel.Add("Chakotay, Lt Commander, NCC-74656");
+            starFleetPersonnel.Add("Seven of Nine,None, NCC-74656");
+            starFleetPersonnel.Add("Tuvok, Lieutenant, NCC-74656");
         } // End of LoadData()
 
         /************************************************************************************
