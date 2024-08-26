@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Day_10_Linq_Lambda_Expressions_1
+namespace Day_4_Linq_Lambda_Expressions_Example
 {
     internal class Program
     {
@@ -17,7 +17,7 @@ namespace Day_10_Linq_Lambda_Expressions_1
 
             foreach (string anElement in StarFleetPersonnel)
             {
-              DisplayLine(anElement);
+                DisplayLine(anElement);
             }
 
             WriteSeparatorLine("Find an Entry");
@@ -40,8 +40,8 @@ namespace Day_10_Linq_Lambda_Expressions_1
                         matchCount++;
                         DisplayLine(anEntry);
                     }
-                } 
-                
+                }
+
                 Console.WriteLine("\n" + matchCount + " entries found matching \'" + searchString + "\'");
             }
 
@@ -83,8 +83,8 @@ namespace Day_10_Linq_Lambda_Expressions_1
         {
             string[] elements = staffInfo.Split(',');
 
-            name       = elements[0];
-            rank       = elements[1];
+            name = elements[0];
+            rank = elements[1];
             assignment = elements[2];
 
         } // End of Parse()
@@ -113,17 +113,17 @@ namespace Day_10_Linq_Lambda_Expressions_1
         /************************************************************************************
          * Pause program until user presses the enter key
          ***********************************************************************************/
-         static void PauseProgram()
-         {
+        static void PauseProgram()
+        {
             Console.WriteLine("Press enter to continue...");
             Console.ReadLine();
-         } // End of PauseProgram()
+        } // End of PauseProgram()
 
         /************************************************************************************
          * return a boolean value to indicate if the user has more input
          ************************************************************************************/
-         static bool moreInput()
-         {
+        static bool moreInput()
+        {
             bool isThereInput = false;  // Hold teh return value 
 
             string whatUserTyped = "";     // Hold what the user enters

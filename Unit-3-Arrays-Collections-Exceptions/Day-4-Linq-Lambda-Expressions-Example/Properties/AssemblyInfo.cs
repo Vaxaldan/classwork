@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Day-10-Linq-Lambda-Expressions-1")]
+[assembly: AssemblyTitle("Day-4-Linq-Lambda-Expressions-Example")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Day-10-Linq-Lambda-Expressions-1")]
+[assembly: AssemblyProduct("Day-4-Linq-Lambda-Expressions-Example")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("26803dc8-9122-4db9-9d4d-ebb202697cf3")]
+[assembly: Guid("d4eb2c08-296e-4ffe-a9ac-959053909458")]
 
 // Version information for an assembly consists of the following four values:
 //
