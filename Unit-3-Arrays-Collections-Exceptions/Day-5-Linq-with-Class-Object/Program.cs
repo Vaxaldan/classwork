@@ -63,7 +63,7 @@ namespace Day_5_Linq_with_Class_Object
                 // Note use of var type to hold the result of .Where()
 
                 var matchingEntries =
-                    castOfPeople.Where(anEntry => anEntry.Name.ToLower().Contains(searchString.ToLower()));
+                    castOfPeople.Where(anEntry => anEntry.name.ToLower().Contains(searchString.ToLower()));
 
                 // At this point the matchingEntries variable hold all List entries that match the condition
 
@@ -80,7 +80,7 @@ namespace Day_5_Linq_with_Class_Object
             commonCode.WriteSeparatorLine("Sorting the List");
 
             // Sort the List
-            var sortList = castOfPeople.OrderBy(aline => aline.Rank);
+            var sortList = castOfPeople.OrderBy(aline => aline.rank);
 
             foreach (StarFleetPersonnel aLine in sortList)
             {

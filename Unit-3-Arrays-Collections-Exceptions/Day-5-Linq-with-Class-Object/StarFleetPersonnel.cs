@@ -5,17 +5,15 @@ namespace StarTrekStuff
 {
     public class StarFleetPersonnel
     {
-        public string Name { get;}
-        public string Rank { get;}
-        public string Assignment { get;}
-
-        public StarFleetPersonnel() {}
+        public string name;
+        public string rank;
+        public string assignment;
 
         public StarFleetPersonnel(string personName, string theirRank, string theirAssignment)
         {
-            Name       = personName;
-            Rank       = theirRank;
-            Assignment = theirAssignment;
+            name       = personName;
+            rank       = theirRank;
+            assignment = theirAssignment;
         }
 
 
@@ -24,8 +22,7 @@ namespace StarTrekStuff
          ************************************************************************************/
         public void DisplayCrewMember()
         {
-            Console.WriteLine($"\nName:\t{Name}\nCrew:\t{Assignment}\nRank:\t{Rank}");
-
+            Console.WriteLine($"\nName:\t{name}\nCrew:\t{assignment}\nRank:\t{rank}");
         } // End of DisplayLine()
 
 
