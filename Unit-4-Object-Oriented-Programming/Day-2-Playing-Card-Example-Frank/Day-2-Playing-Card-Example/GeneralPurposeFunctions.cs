@@ -20,7 +20,7 @@ namespace GeneralPurposeFunctions
          ***********************************************************************************/
         public void PauseProgram()
         {
-            Console.WriteLine("\nPress enter to continue...");
+            Console.WriteLine("Press enter to continue...");
             Console.ReadLine();
         } // End of PauseProgram()
 
