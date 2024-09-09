@@ -35,11 +35,16 @@ namespace Day_3_Inheritance
 
             private List<int> invalidCardValues = new List<int>() { 8,9 };
 
+            // Default Constructor for an ItalianPlayingCard
+            //     it must call the base() to initialize the base class
 
-            // 3-arg Constructor for an ItalianPlayingCard
-            //       it must call the base() to initialize the base class
-            //        with any values it gets when instantiated
-            public ItalianPlayingCard(int theValue, string theSuit)
+            public ItalianPlayingCard() : base(DEFAULT_CARD_VALUE, DEFAULT_SUIT, DEFAULT_COLOR) { }    
+
+
+        // 3-arg Constructor for an ItalianPlayingCard
+        //       it must call the base() to initialize the base class
+        //        with any values it gets when instantiated
+        public ItalianPlayingCard(int theValue, string theSuit)
                 : base(theValue, theSuit, DEFAULT_COLOR) // Pass all data to base class cto
             {                                            // Actual card color will be set after suit is validated
                 InitializeSuitColors();

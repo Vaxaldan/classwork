@@ -31,10 +31,13 @@ namespace Day_3_Inheritance
                                         { "Joker", "Ace" , "Two", "Three", "Four" , "Five", "Six", "Seven",
                                           "Eight", "Nine", "Ten", "Jack" , "Queen", "King"
                                         };
+        // Default Constructor for an AmericanPlayingCard
+        //     it must call the base() to initialize the base class
 
+        public AmericanPlayingCard() : base(DEFAULT_CARD_VALUE, DEFAULT_SUIT, DEFAULT_COLOR) {}
 
         // 3-arg Constructor for an AmericanPlayingCard
-        //       it must call the base() to initialize the base class
+        //       it must call the base() method to initialize the base class
         //        with any values it gets when instantiated
         public AmericanPlayingCard(int theValue, string theSuit)
             : base(theValue, theSuit, DEFAULT_COLOR) // Pass all data to base class cto

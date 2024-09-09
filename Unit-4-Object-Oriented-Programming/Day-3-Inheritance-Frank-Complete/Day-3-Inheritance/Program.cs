@@ -172,7 +172,15 @@ namespace Day_3_Inheritance
 
             Console.Write($" 2nd card: {SwissCard2.CardValue} ({SwissCard2.GetCardValueName()}) of {SwissCard2.CardSuit}\n");
 
+            myFuncs.WriteSeparatorLine("Instantiate and display default cards of all sub classes");
 
+            AmericanPlayingCard defaultUsaCard    = new AmericanPlayingCard();
+            ItalianPlayingCard defaultItalianCard = new ItalianPlayingCard();
+            SwissPlayingCard defaultSwissCard     = new SwissPlayingCard();
+
+            defaultSwissCard.ShowCard();
+            defaultUsaCard.ShowCard();
+            defaultItalianCard.ShowCard();
 
             myFuncs.WriteSeparatorLine("Thanks for trying out our first OOP application!");
             myFuncs.PauseProgram();

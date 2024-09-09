@@ -35,6 +35,10 @@ namespace Day_3_Inheritance
 
         private List<int> invalidCardValues = new List<int>() {2,3,4,5};
 
+        // Default Constructor for an SwissPlayingCard
+        //     it must call the base() to initialize the base class
+
+        public SwissPlayingCard() : base(DEFAULT_CARD_VALUE, DEFAULT_SUIT, DEFAULT_COLOR) { }
 
         // 3-arg Constructor for an SwissPlayingCard
         //       it must call the base() to initialize the base class
