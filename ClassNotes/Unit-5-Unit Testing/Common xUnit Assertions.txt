@@ -1,0 +1,28 @@
+﻿/***********************************************************************************************************
+  * Common xUnit Assertions
+  *
+  * Assertions need to be true for a test to pass
+  *    
+  *    Assert.Equal(expected, actual)    - True if two objects are equal
+  *    Assert.NotEqual(expected, actual) - True if two objects are equal
+  *
+  *    Assert.Equal(expected, actual, fudge-factor) - True if two double/float values
+  *                                                   are within "fudge-factor- of each other
+  *
+  *    Assert.Null(object)    - True if object is null
+  *    Assert.NotNull(object) - True if object is not null
+  *
+  *    Assert.InRange(actual, low, high)    - True if actual falls between low and high (inclusive)
+  *    Assert.NotInRange(actual, low, high) - True if actual does not fall between low and high (inclusive)
+  *
+  *    Assert.Same(expected, actual)     - True if expected & actual object references are to the same object
+  *    Assert.NotSame(expected, actual)  - True if expected & actual object references are not the same object
+  *
+  *    Assert.IsAssignableFrom<T>(obj)  - True if an object is castable to the type <T>
+  *    Assert.IsType<T>(obj)            - True if an object is the type <T>
+  *
+  *    Assert.Empty(collection)    - True if the collection is empty, while
+  *    Assert.NotEmpty(collection) - True if the collection is not empty
+  *
+  *    Assert.DoesNotContain<(expected, collection) - True if the expected item is not found in the collection
+  **************************************************************************************************************/
