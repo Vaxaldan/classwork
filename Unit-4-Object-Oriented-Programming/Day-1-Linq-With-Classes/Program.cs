@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+// Using some programmer defined code
+//       the code is in files included in the project folder
 using GeneralPurposeFunctions;
 using StarTrekStuff;
 

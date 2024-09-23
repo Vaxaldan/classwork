@@ -1,6 +1,5 @@
 ﻿using System;
-// a namespace is a group of related things whose name and purpose is defined in the namespace
-//   Allows things to be named in the same and have a different meaning depending on their context
+
 namespace GeneralPurposeFunctions
 {
     public class CommonlyUsedFunctions
@@ -10,9 +9,9 @@ namespace GeneralPurposeFunctions
          ************************************************************************************/
         public void WriteSeparatorLine(string message)
         {
-            Console.WriteLine("\n-------------------------------------");
-            Console.WriteLine("----- " + message);
-            Console.WriteLine("-------------------------------------\n");
+            Console.WriteLine("\n----------------------------------------------------------------------------");
+            Console.WriteLine($"{message}");
+            Console.WriteLine("----------------------------------------------------------------------------\n");
 
         } // End of WriteSeparatorLine()
 
@@ -21,7 +20,7 @@ namespace GeneralPurposeFunctions
          ***********************************************************************************/
         public void PauseProgram()
         {
-            Console.WriteLine("Press enter to continue...");
+            Console.WriteLine("\nPress enter to continue...");
             Console.ReadLine();
         } // End of PauseProgram()
 
@@ -108,5 +107,5 @@ namespace GeneralPurposeFunctions
             return theValue;
         } // End of getANumber() method
 
-    } // End of class CommonlyUsedFunctions
-} // End of namespace GeneralPurposeFunctions
+    } // End of class GeneralPurposeFunctions
+}
