@@ -1,7 +1,0 @@
-This file will allow an "empty" folder to be stored in GitHub
-If a folder is empty when pushed to GitHub, it will NOT be created in GitHub
-To create a folder you will add stuff too at a later date, 
-     it is common to place a "placeholder file" in the folder
-It doesn't matter what it is called.
-
-This file may be deleted once otehr files have been added to the folder in GitHub
