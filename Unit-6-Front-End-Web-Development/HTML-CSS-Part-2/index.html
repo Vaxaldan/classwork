@@ -1,0 +1,77 @@
+<!-- This is an HTML Comment -->
+<!-- any thing that starts with less-than-sign exclamation-point is a directive to the browser  --> 
+<!-- html is the data/information to display - directives are not displayed                     --> 
+
+<!-- html elements are defined by a pair of tags
+     
+     <start-tag> and </end-tag>
+     
+     tags are enclosed <> with the end-tag starting with a </tagname>  
+     
+     an element is just something on the page
+ -->
+
+<!DOCTYPE html>    <!-- tells the browser the file contains html - optional                     -->
+<html lang="en">   <!-- the container of all the html for the page and the language of the page -->
+    <head> <!-- Information browser needs to know about the html - NOT displayed   -->
+         <meta charset="UTF-8">    <!-- character set for the page -->
+         <!-- viewport is the displayable part of browser screen -->
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!-- Tell the browser we want to use an file containing CSS -->
+
+         <!-- the link tag connect the html with external files you want the browser to use -->
+         <!-- rel="" indicates its a stylesheet (type of file) --> 
+         <!-- href="" is the path  to the external file        --> 
+         <!-- the path is relative to the project folder       -->
+         <!-- Note the use of the shorthand end tag - / at the end of the line (before the >)--> 
+         <link rel="stylesheet", href="myStyles.css"/> 
+
+         <title>Frank's Page</title> <!-- words display in the browser tab for the page -->
+    </head>
+    <body> <!-- Container for the primary content of the page - What is displayed in the browser-->
+        <header> <!-- Put stuff you want at the top of page here-->
+            <!-- the <h# is a heading indicator   -->
+            <!-- the smaller the number the bigger the font -->
+            <!-- the larger the number the smaller the fone -->
+            <h1>Grand Circus After hours Boot Camp</h1>
+            <h2>Starting August 1, 2024</h2>
+        </header>
+        <nav> <!-- put links a user can jump to (another page or within this page) -->
+            <!-- no nav section content-->
+        </nav>
+        <main> <!-- this should convey the main content of the page--> 
+            <!-- the paragraph-tag is used to start things on a new line -->
+            <!--  div give you a style-able unit within a web page       -->
+            <!--  div also let you start information on a new line       --> 
+            <!-- span allows you create a style-able unit in the middle of an element -->   
+            <div>
+                <p>This is the web page <span>I</span> created for class</p>
+                <p id="secondLine">It's not much</p>
+                <p>but it's a start</p>
+            </div>
+            <section> <!-- optional major topic areas of the main content-->
+                <!-- id="" allows you to name elements for styling-->
+                <div id="sectionDiv">
+                    <p>This is a paragraph in a section</p>
+                </div>
+            </section>
+            <section>
+                <p>People in my class</p>
+                <ol> <!-- Create an order list of elements-->
+                    <!-- class="" allows you to create a style-able group of elements -->
+                    <li class="student">Ashley</li> <!-- an item in the list -->
+                    <li class="student">Evan</li>
+                    <li class="student">Ethan</li>
+                    <li class="student">Josh</li>
+                    <li class="student">Kendall</li>
+                    <li class="student">Ryan</li>
+                    <li class="admin">Jay</li>
+                    <li class="admin">Frank</li>
+                </ol>
+            </section>
+        </main>
+        <footer> <!-- stuff you want at the bottom of the page -->
+            Copyright 2024 BootCamps R Us, LLC
+        </footer>
+    </body>
+</html>

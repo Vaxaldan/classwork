@@ -1,0 +1,39 @@
+/* This is a comment is CSS */
+/* Define formatting rules for a web page */
+/* general format:  selector {
+                               css rule
+                               css rule
+                             }
+*/
+html { /* style all the elements withing the html tag */
+    font-size: 20px;
+    color: blue;
+}
+h2 { /* style all h2 elements */
+ color:blueviolet;
+}
+div { /* style all div and elements withing them */
+    background-color: cornflowerblue;
+    color: yellow;
+}
+#sectionDiv { /* style all elements named id="sectionDiv" */
+    color: black;
+}
+#secondLine { /* style the element id="secondLine" */
+    background-color: deeppink;
+}
+span { /* style all span elements */
+    color: orange;
+    font-weight: bold;
+}
+.student { /* style all elements with class="student" */
+color:chocolate;
+font-style: italic;
+}
+.admin {
+ color: purple;
+ width: 3em;
+ border-style:groove;
+ border-color: aqua;
+ border-width: 10px;
+}
