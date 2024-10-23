@@ -1,0 +1,128 @@
+html { /* Define rules for the entire html element */
+    height: 100%;
+    font-size: 16px;
+}
+
+* {  /* Universal selector to set rules to apply to all elements */
+    box-sizing: border-box;
+}
+
+body { /* Define rules for the body element */
+    /* non-standard 'Raleway' font is linked in the html head tag*/
+    font-family: 'Raleway', sans-serif;  /* specify font for the page */
+                                             /* top color  bottom */
+    background-image: linear-gradient(to bottom, #858c90, #bbb); /* Gradient color for the background */
+
+    background-repeat: no-repeat;  /* Instead of repeating the background image - stretch */
+
+    background-attachment: fixed;  /* Don't scroll the background with the page */
+}
+div.taskmanager-list { /* Style all divs with the class="taskmanager-list" */
+    display: inline-block; /* Multi column layout */
+
+    width: 300px; /* fixed size columns */
+
+    background-color: #ddd; /* set background color */
+
+    border-radius: 2px 3px;  /* slightly rounded corners */
+}
+div.taskmanager-list h2 { /* Style all h2 tags in divs with class="taskmanager-list" */
+    margin: 8px;  /* move it over from the edge */
+
+    font-size: 1rem; /* Keep the font size consistent with the document size */
+
+    font-weight: bold;
+}
+div.taskmanager-list ol {
+    margin: 0; /* left justify */
+    padding: 0; /* no space at top */
+}
+div.taskmanager-list li {
+    list-style: none; /* remove the numbers from list item */
+    background-color: rgb(255,255,255); /* specify background color white using rgb values */
+    font-size: .9rem; /* set font size to be slightly smaller than title */
+    border-radius: 1px; /* round corners slightly */
+    margin-bottom: 10px; /* put some space between the items */
+    padding: 8px;        /* add some padding with the items - make them wider */
+}
+div.taskmanager-list li:hover { /* when the user hovers on a item (hover means leave cursor on it for a second) */
+    background-color: #f5f6f7;
+    color: #092d42;
+}
+div.taskmanager-list li:last-child { /* Style the last item in the list */
+margin-bottom: 0px; /* remove the margin */
+}
+div.taskmanager-list a {
+    display : block; /* do to a new line and stretch to fill the column */
+    text-decoration: none; /* remove the underlining of the hyperlink  */
+    color: darkgray; /* change coßßßlor of font */
+    padding: 8px 0px 8px 5px; /* top right bottom left padding */
+    font-size: .85rem; /* make font size slightly smaller than list item */
+}
+div.taskmanager-list a:hover { /* when the user hovers on the words */
+background-color: rgba(9, 45, 66, 0.1);
+}
+div.taskmanager-list {
+    margin-right: 10px; /* space the list to right a little */
+    vertical-align: top; /* align the tops of all taskmanager list items*/
+}
+body {
+    white-space: nowrap; /* Do not wrap items in the body - make them go horizontal */
+}
+
+div.taskmanager-list li {
+    white-space: normal;
+}
+
+header > h1, /* Select all the h1 elements with header as a parent */
+header > p { /*  and the p elements with header as a parents       */       
+display : inline-block; /* go across screen instead of down        */
+height: 20px;
+padding-right: 20px;
+border-right: 1px solid rgba(255,255,255, .5); /* put white vertical bar between items with .5 opacity */
+vertical-align: middle; /* align the items in the middle of the block */
+color: white;
+}
+header > h1 {
+    text-transform: uppercase; /* convert text to uppercase */
+    font-size: 1.1rem;
+}
+header > p {
+    font-size: .9rem;
+    padding-left: 5px;
+}
+.labels span { /* Style amy class="labels" */
+    display: inline-block;
+    vertical-align: top;
+    width: 35px;
+    height: 8px;
+    border-radius: 3px;
+}
+.label.softskills {
+    background-color: red;
+}
+.label.pair {
+    background-color: teal;
+}
+.label.individual {
+    background-color: green;
+}
+.label.general {
+    background-color: orange;
+}
+/* to style the scrollbar provided by the browser          */
+/* a tool known as webkit is used to produce the scrollbar */ 
+
+body::-webkit-scrollbar {
+    width : 10px;
+}
+body::-webkit-scrollbar-track {
+    background-color: #bbb;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}
