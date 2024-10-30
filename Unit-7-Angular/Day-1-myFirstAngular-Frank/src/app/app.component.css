@@ -1,0 +1,18 @@
+/* This CSS will be applied to component.html when Angular process the page */
+  /* this is a comment CSS (styling) */
+  table { /* Apply these styles to all table elements */
+      font-family: arial, sans-serif; /* Use arial font, if not yse any sans-serif font */
+      width: 100%;
+      border-collapse: collapse;
+  }
+  
+  td, th { /* Apply these styles to all td and th elements */
+      border: 1px solid burlywood;
+      text-align: left;
+      padding: 4px;
+      }
+  
+   tr:nth-child(even) { /* Apply these styles to every other even tr elements */
+      background-color: linen;
+      }
+ 
