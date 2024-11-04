@@ -1,0 +1,8 @@
+<!-- This will display a list of students stored in TypeScript file for the Component -->
+<!-- Use of *ngFor requires an import of CommonModule in the TypeSript file           -->
+<h3>Students in our Cohort</h3>
+<div>
+    <ol>
+        <li *ngFor="let aStudent of studentNames">{{aStudent}}</li> 
+    </ol>
+</div>
