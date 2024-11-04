@@ -1,7 +1,6 @@
 import { CommonModule }  from '@angular/common';
 import { Component, OnInit }     from '@angular/core';
-//import { MoviesService } from '../movies.service-memory'; // access the MoviesServices service
-import { MoviesService } from '../movies.service-api'; // access the MoviesServices service
+import { MoviesService } from '../movies.service-memory'; // access the MoviesServices service
 import { RouterLink }    from '@angular/router';
 
 @Component({
