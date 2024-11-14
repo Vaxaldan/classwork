@@ -14,6 +14,9 @@ import { ProductService } from '../../services/product.service'; // Gain access 
 })
 export class ProductMenuComponent {
 
+// heading title for the page  
+title : string = "Frank's Practice Assessment 5 - Angular"
+
 // This will hold the data for the products to be displayed
 // The data will come from a call to a service
 // It starts out as an empty array  
