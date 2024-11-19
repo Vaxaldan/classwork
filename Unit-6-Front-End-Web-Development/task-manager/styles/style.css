@@ -1,0 +1,22 @@
+body {
+background-image: linear-gradient(to bottom, gray, lightgray);
+}
+
+div.taskmanager-list{
+display: inline-block;
+width: 300px;
+background-color: blanchedalmond;
+border-radius: 4px;
+vertical-align: top;
+}
+
+.card {
+background-color: darkgrey;
+margin: 10px;
+height: 30px;   
+text-decoration: none;
+}
+
+.cards {
+    list-style-type: none;
+}

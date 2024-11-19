@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Contact information</h1>
+        <h3>Please enter your contact information.</h3>
+    </header>
+    <nav>
+        <a href="index.html">Home Page</a>
+    </nav>
+    <main>
+        <form method="post" action="https://6711ae834eca2acdb5f5679b.mockapi.io/DataFromClass">
+         <div>
+            <label for="nameField">Enter your full name.</label>
+            <input type="text" id="nameField" name="personsName"/>
+         </div>
+         <div>
+            <label for="cityField">What City do you live in?</label>
+            <input type="text" id="cityField" name="cityTheyLiveIn"/>
+         </div>
+         <div>
+            <label id="favNumber">What is your favorite number?</label>
+            <input type="number" id="favNumber" name="favoriteNumber"/>
+         </div>
+         <div>
+            <label id="favColor">What is your favorite color?</label>
+            <input type="color" id="favColor" name="favoriteColor"/>
+         </div>
+         <div>
+            <label id="birthDay">When is your birthday?</label>
+            <input type="date" id="birthDay" name="theirBirthday"/>
+         </div>
+         <div> 
+            <input type="submit"/>
+         </div>
+        </form>
+    </main>
+</body>
+</html>

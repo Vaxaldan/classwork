@@ -21,10 +21,10 @@ const routes: Routes = [
   // if the URL path is /home switch to the HomeComponent
   { path: 'home', component: HomeComponent },
   // if the URL path is /persinfo switch to the SampleFormComponent
-  { path: 'persinfo', component: SampleFormComponent },
+  { path: 'contactInfo', component: SampleFormComponent },
   { path: 'learners', component: LearnerListComponent},
   // if the URL path is /stateseals switch to the StateSealsComponent
-  { path: 'stateseals', component: StateSealsComponent }
+  { path: 'showSeals', component: StateSealsComponent }
 ]
 @NgModule({
   declarations: [],
