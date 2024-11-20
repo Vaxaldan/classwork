@@ -30,8 +30,6 @@
 --                '%word'  - ends with test
 --                '%word%' - contains test
 --
---        ILIKE   (case insensivtive LIKE - Postgres extension)
---
 -- predicates may be combined using AND and OR
 --
 -- use parentheses to make your multi-predicate condition clear
